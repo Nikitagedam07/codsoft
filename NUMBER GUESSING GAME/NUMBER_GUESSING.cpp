@@ -5,12 +5,14 @@ using namespace std;
  
 int main()
 {
- 
+    system("cls");
+	system("Color E0");
+
     cout << "\n\t\t\tWelcome to GuessTheNumber game!"
          << endl;
-    cout << "You have to guess a number between 1 and 10. "
-            "You'll have limited choices based on the "
-            "level you choose. Good Luck!"
+    cout << "\nYou have to guess a number between 1 and 10. "
+            "\nYou'll have limited choices based on the "
+            "\nlevel you choose. Good Luck!"
          << endl;
  
     while (true) {
