@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     system("cls");
-	system("Color E0");
+	system("Color 0A");
 
     cout << "\n\t\t\tWelcome to GuessTheNumber game!"
          << endl;
@@ -20,7 +20,7 @@ int main()
         int secretNumber = 1 + (rand() % 10);
      
 
-             int guessleft=5;
+             int guessleft=6;
             for(int i=0;i<=guessleft;i++)
             {
                 int guess=0;
@@ -33,10 +33,10 @@ int main()
                    
                     else if(secretNumber<guess)
                         {
-                        cout<<"\nGuess number is to high";
+                        cout<<"\nGuess number is too high";
                         }
                     else{
-                    cout<<"\nGuess number is to low";
+                    cout<<"\nGuess number is too low";
                         } 
                 guessleft--;
             }
